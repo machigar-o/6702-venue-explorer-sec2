@@ -14,6 +14,22 @@ const venueStyles = StyleSheet.create(
             width: '100%',
             height: '100%',
             margin: 0
+        },
+        bannerTextTitle: {
+            color: 'white',
+            textAlign: 'center',
+            fontSize: 24,
+            fontWeight: 'bold' 
+        },
+        bannerTextSnippet: {
+            color: 'white',
+            textAlign: 'center',
+            fontSize: 18,
+            fontWeight: 'bold' 
+        },
+        bannerTextContainer: {
+            width: '80%',
+            position: 'absolute'
         }   
     }
 );
