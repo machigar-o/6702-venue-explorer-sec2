@@ -5,6 +5,7 @@ import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import Banner from '@/components/Banner';
+import VenueCatalog from '@/components/VenueCatalog';
 
 export default function HomeScreen() {
   return (
@@ -13,9 +14,7 @@ export default function HomeScreen() {
       headerImage={
         <Banner/>
       }>
-      <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Welcome!</ThemedText>
-      </ThemedView>
+      <VenueCatalog/>
     </ParallaxScrollView>
   );
 }
