@@ -30,7 +30,15 @@ const venueStyles = StyleSheet.create(
         bannerTextContainer: {
             width: '80%',
             position: 'absolute'
-        }   
+        },
+        cardContainer:{
+            padding: 10
+        },
+        cardItem: {
+            flex: 1,
+            margin: 5,
+            justifyContent: 'center'
+        }
     }
 );
 
